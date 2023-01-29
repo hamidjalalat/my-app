@@ -30,14 +30,16 @@ export class Person implements Interfaces.Person {
 
         this.id = id;
         this.fullName = fullName;
-
+        this.age = 0;
+         this.emailAddress="";
+         this.active=true;
     }
 
     public id: string;
-    public age: number=0;
-    public active: boolean=true;
+    public age: number ;
+    public active: boolean ;
     public fullName: string;
-    public emailAddress: string="";
+    public emailAddress: string ;
 
 }
 // **************************************************
